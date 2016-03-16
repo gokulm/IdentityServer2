@@ -2,13 +2,14 @@ bin/
 obj/
 packages/
 build/
+backup/
+.vs/
 
 !NuGet.exe
 
 *.suo
 *.csproj.user
 *.pubxml.user
-*.sdf
 *.mdf
 *.ldf
 _ReSharper.*
@@ -16,3 +17,4 @@ _ReSharper.*
 PublishProfiles
 *.DS_Store
 *.DotSettings.user
+upgradelog.htm

@@ -5,14 +5,18 @@
 
 <h2>@string.Format(Index_cshtml.WelcomeToSite, ViewBag.SiteName)</h2>
 
-<p>
-    @Html.ActionLink(Index_cshtml.ViewWsFederationMetadata, "Generate", "FederationMetadata")
-</p>
+@*<p>
+        @Html.ActionLink(Index_cshtml.ViewWsFederationMetadata, "Generate", "FederationMetadata")
+    </p>
+
+    <p>
+        @Html.ActionLink(Index_cshtml.ViewWSFederationMetadataRP, "GenerateRPMetadata", "FederationMetadata")
+    </p>
+
+    <p>
+        @Html.ActionLink(Index_cshtml.ApplicationIntegration, "appintegration", "home")
+    </p>*@
 
 <p>
-    @Html.ActionLink(Index_cshtml.ViewWSFederationMetadataRP, "GenerateRPMetadata", "FederationMetadata")
-</p>
-
-<p>
-    @Html.ActionLink(Index_cshtml.ApplicationIntegration, "appintegration", "home")
+    <a href="https://localhost:44380/issue/wsfed/?wa=wsignin1.0&wtrealm=http://localhost:59999/core/v1/sso" target="_blank">Access Identifi</a>
 </p>
