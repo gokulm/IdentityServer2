@@ -15,6 +15,7 @@ namespace Thinktecture.IdentityServer.Protocols.WSFederation
     {
         public WSFederationResult(SignInResponseMessage message, bool requireSsl)
         {
+            // gokul sso
             //if (requireSsl)
             //{
             //    if (message.BaseUri.Scheme != Uri.UriSchemeHttps)
