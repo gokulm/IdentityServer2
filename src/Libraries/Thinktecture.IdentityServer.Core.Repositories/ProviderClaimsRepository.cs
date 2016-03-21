@@ -16,7 +16,7 @@ namespace Thinktecture.IdentityServer.Repositories
 {
     public class ProviderClaimsRepository : IClaimsRepository
     {
-        private const string ProfileClaimPrefix = "http://identityserver.thinktecture.com/claims/profileclaims/";
+        private const string ProfileClaimPrefix = "http://www.myidentifi.com/claims/";
 
         public virtual IEnumerable<Claim> GetClaims(ClaimsPrincipal principal, RequestDetails requestDetails)
         {

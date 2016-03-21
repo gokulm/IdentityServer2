@@ -26,6 +26,7 @@ namespace Thinktecture.IdentityServer.Protocols.WSFederation
             //}
 
             message.Parameters.Add(new KeyValuePair<string, string>("tokentype", "saml"));
+            //message.Parameters.Add(new KeyValuePair<string, string>("tokentype", "jwt"));
             Content = message.WriteFormPost();
         }
     }
